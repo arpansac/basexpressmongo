@@ -1,0 +1,17 @@
+{
+  "name": "basexpressmongo",
+  "version": "1.0.0",
+  "description": "beginning with mongo, doing it to compare complexity in setting up as compared with sequelize",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2-dev index.js"
+  },
+  "author": "arpansac",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.4"
+  }
+}
